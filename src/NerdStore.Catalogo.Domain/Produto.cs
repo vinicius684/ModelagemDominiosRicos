@@ -31,6 +31,8 @@ namespace NerdStore.Catalogo.Domain
             Valor = valor;
             DataCadastro = dataCadastro;
             Imagem = imagem;
+
+            Validar();//caso não esteja válido, não vai nem criar o Produto, pois exception interrompe o construtor
         }
 
         //AdHoc Setters - porduto.Ativar(); produto.Desativar(); basicamente por ser melhor semantico que produto.Ativo = true;
@@ -47,12 +49,14 @@ namespace NerdStore.Catalogo.Domain
 
         public void AlterarDescricao(string descricao)
         {
+            Validacoes.ValidarSeVazio(descricao, "O campo Descricao do produto não pode estar vazio");
             Descricao = descricao;
         }
 
         public void DebitarEstoque(int quantidade)
         {
             if (quantidade < 0) quantidade *= -1;//parâmetro quantidade sempre será positivo
+            if (!PossuiEstoque(quantidade)) throw new DomainException("Estoque insuficiente");
             QuantidadeEstoque -= quantidade;
         }
 
@@ -68,31 +72,12 @@ namespace NerdStore.Catalogo.Domain
 
         public void Validar()
         {
-           
+            Validacoes.ValidarSeVazio(Nome, "O campo Nome do produto não pode estar vazio");
+            Validacoes.ValidarSeVazio(Descricao, "O campo Descricao do produto não pode estar vazio");
+            Validacoes.ValidarSeIgual(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode estar vazio");
+            Validacoes.ValidarSeMenorQue(Valor, 1, "O campo Valor do produto não pode se menor igual a 0");
+            Validacoes.ValidarSeVazio(Imagem, "O campo Imagem do produto não pode estar vazio");
+
         }
-    }
-
-    public class Categoria : Entity
-    {
-        public string Nome { get; private set; }
-        public int Codigo { get; private set; }
-
-        // EF Relation
-        public ICollection<Produto> Produtos { get; set; }
-
-        protected Categoria() { }
-
-        public Categoria(string nome, int codigo)
-        {
-            Nome = nome;
-            Codigo = codigo;
-        }
-
-        public override string ToString()
-        {
-            return $"{Nome} - {Codigo}";
-        }
-
-   
     }
 }
