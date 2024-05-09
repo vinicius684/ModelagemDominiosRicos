@@ -1,0 +1,12 @@
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\bin\Debug\net8.0\NerdStore.Core.deps.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\bin\Debug\net8.0\NerdStore.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\bin\Debug\net8.0\NerdStore.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\NerdStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\NerdStore.Core.AssemblyInfoInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\NerdStore.Core.AssemblyInfo.cs
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\NerdStore.Core.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\NerdStore.Core.sourcelink.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\NerdStore.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\refint\NerdStore.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\NerdStore.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Core\obj\Debug\net8.0\ref\NerdStore.Core.dll
