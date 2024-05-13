@@ -17,7 +17,7 @@ namespace NerdStore.Catalogo.Data.Repository
             _context = context;
         }
 
-        public IUnitOfWork UnitOfWork => _context;//toda vez que fizer ProdutoRepository.unitOfWork.Commit, estou salvando no banco
+        public IUnitOfWork UnitOfWork => _context;//"reflete o CatalogoCotnext", toda vez que fizer ProdutoRepository.unitOfWork.Commit, estou salvando no banco
 
         public async Task<IEnumerable<Produto>> ObterTodos()
         {
