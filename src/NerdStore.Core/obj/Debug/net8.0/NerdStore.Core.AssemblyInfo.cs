@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NerdStore.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9213c1fe8022442b0956645dfeada7af83534c97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b6617eb049cde3f57e5dba8fb42761427cc617e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NerdStore.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NerdStore.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

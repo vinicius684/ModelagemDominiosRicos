@@ -1,4 +1,6 @@
-﻿using System;
+﻿using NerdStore.Catalogo.Domain.Events;
+using NerdStore.Core.Bus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +11,10 @@ namespace NerdStore.Catalogo.Domain
     public class EstoqueService
     {
         private readonly IProdutoRepository _produtoRepository;
+        private readonly IMediatrHandler _bus;
 
-        public EstoqueService(IProdutoRepository produtoRepository
-                              )
+        public EstoqueService(IProdutoRepository produtoRepository,
+                              IMediatrHandler bus)
         {
             _produtoRepository = produtoRepository;
 
@@ -27,6 +30,12 @@ namespace NerdStore.Catalogo.Domain
 
             produto.DebitarEstoque(quantidade);
 
+            // TODO: Parametrizar a quantidade de estoque baixo
+            if (produto.QuantidadeEstoque < 10)
+            {
+                // avisar, mandar email, abrir chamado, realizar nova compra. Coisas esssas que não devem ser feitas aqui, estaria corrompendo a responsabilidade do método. Aí que entra o evento de domínio
+                await _bus.PublicarEvento(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
+            }
 
             _produtoRepository.Atualizar(produto);
             return await _produtoRepository.UnitOfWork.Commit();
