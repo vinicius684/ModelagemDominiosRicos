@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NerdStore.WebApp.MVC.props" />
+</Project>

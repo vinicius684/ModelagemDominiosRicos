@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NerdStore.Catalogo.Domain
 {
-    public class EstoqueService
+    public class EstoqueService : IEstoqueService
     {
         private readonly IProdutoRepository _produtoRepository;
         private readonly IMediatrHandler _bus;
