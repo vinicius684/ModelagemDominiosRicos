@@ -5,6 +5,38 @@
       "PackagePath": "staticwebassets\\NerdStore.WebApp.MVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\Images\\camiseta1.jpg",
+      "PackagePath": "staticwebassets\\Images\\camiseta1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\Images\\camiseta2.jpg",
+      "PackagePath": "staticwebassets\\Images\\camiseta2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\Images\\camiseta3.jpg",
+      "PackagePath": "staticwebassets\\Images\\camiseta3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\Images\\camiseta4.jpg",
+      "PackagePath": "staticwebassets\\Images\\camiseta4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\Images\\caneca1.jpg",
+      "PackagePath": "staticwebassets\\Images\\caneca1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\Images\\caneca2.jpg",
+      "PackagePath": "staticwebassets\\Images\\caneca2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\Images\\caneca3.jpg",
+      "PackagePath": "staticwebassets\\Images\\caneca3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\Images\\caneca4.jpg",
+      "PackagePath": "staticwebassets\\Images\\caneca4.jpg"
+    },
+    {
       "Id": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

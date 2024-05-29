@@ -22,6 +22,22 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/AdminProdutos/AtualizarProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9kdXRvc1xBdHVhbGl6YXJQcm9kdXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/AdminProdutos/Estoque.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9kdXRvc1xFc3RvcXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/AdminProdutos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9kdXRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/AdminProdutos/NovoProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9kdXRvc1xOb3ZvUHJvZHV0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +56,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/Vitrine/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVml0cmluZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/Vitrine/ProdutoDetalhe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVml0cmluZVxQcm9kdXRvRGV0YWxoZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/NerdStore.WebApp.MVC/Views/_ViewImports.cshtml]
