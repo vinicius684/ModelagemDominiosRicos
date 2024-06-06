@@ -12,7 +12,7 @@ namespace NerdStore.Catalogo.Domain.Events
     {
         private readonly IProdutoRepository _produtoRepository;
 
-        ProdutoEventHandler(IProdutoRepository produtoRepository) 
+        public ProdutoEventHandler(IProdutoRepository produtoRepository) 
         {
             _produtoRepository = produtoRepository;
         }
