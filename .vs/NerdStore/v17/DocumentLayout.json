@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A529146B-DF11-4E03-8A9E-19E4EEB3473A}|src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.vendas.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A529146B-DF11-4E03-8A9E-19E4EEB3473A}|src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj|solutionrelative:src\\nerdstore.vendas.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.vendas.domain\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|solutionrelative:src\\nerdstore.vendas.domain\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.vendas.domain\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|solutionrelative:src\\nerdstore.vendas.domain\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.vendas.domain\\pedidostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|solutionrelative:src\\nerdstore.vendas.domain\\pedidostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.vendas.domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|solutionrelative:src\\nerdstore.vendas.domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.catalogo.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|solutionrelative:src\\nerdstore.catalogo.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D14B094E-F2FE-4804-8D59-00910D2FF66C}|src\\NerdStore.Core\\NerdStore.Core.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.core\\domainobjects\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14B094E-F2FE-4804-8D59-00910D2FF66C}|src\\NerdStore.Core\\NerdStore.Core.csproj|solutionrelative:src\\nerdstore.core\\domainobjects\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.vendas.domain\\tipodescontovoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|solutionrelative:src\\nerdstore.vendas.domain\\tipodescontovoucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.vendas.domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A23FDB-8BE1-4C8B-82B8-DCE3C07F458F}|src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj|solutionrelative:src\\nerdstore.vendas.domain\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.catalogo.domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|solutionrelative:src\\nerdstore.catalogo.domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A529146B-DF11-4E03-8A9E-19E4EEB3473A}|src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.vendas.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A529146B-DF11-4E03-8A9E-19E4EEB3473A}|src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj|solutionrelative:src\\nerdstore.vendas.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD8324CA-2BD1-4B3E-9763-0B810081E32F}|src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.webapp.mvc\\nerdstore.webapp.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -25,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.catalogo.domain\\events\\produtoeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|solutionrelative:src\\nerdstore.catalogo.domain\\events\\produtoeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.catalogo.domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|solutionrelative:src\\nerdstore.catalogo.domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B9083D1-CD61-4CD6-979F-C94EDB479FFC}|src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj|c:\\users\\vpinh\\desktop\\desenvolvedor.io\\_8modelagemdedominiosricos\\nerdstore\\src\\nerdstore.catalogo.domain\\events\\produtoabaixoestoqueevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,38 +98,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "PedidoStatus.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\PedidoStatus.cs",
+              "RelativeDocumentMoniker": "src\\NerdStore.Vendas.Domain\\PedidoStatus.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\PedidoStatus.cs",
+              "RelativeToolTip": "src\\NerdStore.Vendas.Domain\\PedidoStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T00:24:20.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Core\\DomainObjects\\Entity.cs",
+              "RelativeDocumentMoniker": "src\\NerdStore.Core\\DomainObjects\\Entity.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Core\\DomainObjects\\Entity.cs",
+              "RelativeToolTip": "src\\NerdStore.Core\\DomainObjects\\Entity.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwDQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:57:26.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\Produto.cs",
+              "RelativeDocumentMoniker": "src\\NerdStore.Catalogo.Domain\\Produto.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\Produto.cs",
+              "RelativeToolTip": "src\\NerdStore.Catalogo.Domain\\Produto.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA4wBgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:37:24.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoItem.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\PedidoItem.cs",
+              "RelativeDocumentMoniker": "src\\NerdStore.Vendas.Domain\\PedidoItem.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\PedidoItem.cs",
+              "RelativeToolTip": "src\\NerdStore.Vendas.Domain\\PedidoItem.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:20:22.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Data\\Class1.cs",
               "RelativeDocumentMoniker": "src\\NerdStore.Vendas.Data\\Class1.cs",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Data\\Class1.cs",
               "RelativeToolTip": "src\\NerdStore.Vendas.Data\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T20:04:37.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T20:04:37.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Voucher.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\Voucher.cs",
               "RelativeDocumentMoniker": "src\\NerdStore.Vendas.Domain\\Voucher.cs",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\Voucher.cs",
               "RelativeToolTip": "src\\NerdStore.Vendas.Domain\\Voucher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T20:01:05.327Z"
+              "WhenOpened": "2024-06-06T20:01:05.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TipoDescontoVoucher.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\TipoDescontoVoucher.cs",
               "RelativeDocumentMoniker": "src\\NerdStore.Vendas.Domain\\TipoDescontoVoucher.cs",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\TipoDescontoVoucher.cs",
               "RelativeToolTip": "src\\NerdStore.Vendas.Domain\\TipoDescontoVoucher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T20:01:03.165Z"
             },
@@ -125,13 +191,14 @@
               "RelativeDocumentMoniker": "src\\NerdStore.Vendas.Domain\\Pedido.cs",
               "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Vendas.Domain\\Pedido.cs",
               "RelativeToolTip": "src\\NerdStore.Vendas.Domain\\Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwKQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T19:53:47.864Z"
+              "WhenOpened": "2024-06-06T19:53:47.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "NerdStore.WebApp.MVC.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
               "RelativeDocumentMoniker": "src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
@@ -143,19 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutoEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\Events\\ProdutoEventHandler.cs",
-              "RelativeDocumentMoniker": "src\\NerdStore.Catalogo.Domain\\Events\\ProdutoEventHandler.cs",
-              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\Events\\ProdutoEventHandler.cs",
-              "RelativeToolTip": "src\\NerdStore.Catalogo.Domain\\Events\\ProdutoEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T19:35:36.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\Categoria.cs",
               "RelativeDocumentMoniker": "src\\NerdStore.Catalogo.Domain\\Categoria.cs",
@@ -167,7 +222,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "ProdutoEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\Events\\ProdutoEventHandler.cs",
+              "RelativeDocumentMoniker": "src\\NerdStore.Catalogo.Domain\\Events\\ProdutoEventHandler.cs",
+              "ToolTip": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\Events\\ProdutoEventHandler.cs",
+              "RelativeToolTip": "src\\NerdStore.Catalogo.Domain\\Events\\ProdutoEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T19:35:36.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ProdutoAbaixoEstoqueEvent.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\Events\\ProdutoAbaixoEstoqueEvent.cs",
               "RelativeDocumentMoniker": "src\\NerdStore.Catalogo.Domain\\Events\\ProdutoAbaixoEstoqueEvent.cs",
@@ -179,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "NerdStore.Catalogo.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
               "RelativeDocumentMoniker": "src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
@@ -191,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "NerdStore.Catalogo.Data.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
               "RelativeDocumentMoniker": "src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
@@ -203,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\Setup\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "NerdStore.WebApp.MVC\\Setup\\DependencyInjection.cs",
@@ -215,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\Program.cs",
               "RelativeDocumentMoniker": "NerdStore.WebApp.MVC\\Program.cs",
@@ -227,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "NerdStore.WebApp.MVC.csproj",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
               "RelativeDocumentMoniker": "NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
@@ -239,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ProdutoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Application\\ViewModels\\ProdutoViewModel.cs",
               "RelativeDocumentMoniker": "src\\NerdStore.Catalogo.Application\\ViewModels\\ProdutoViewModel.cs",
@@ -251,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "AdminProdutosController.cs",
               "DocumentMoniker": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\NerdStore.WebApp.MVC\\Controllers\\Admin\\AdminProdutosController.cs",
               "RelativeDocumentMoniker": "NerdStore.WebApp.MVC\\Controllers\\Admin\\AdminProdutosController.cs",
