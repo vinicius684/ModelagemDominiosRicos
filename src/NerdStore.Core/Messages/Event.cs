@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-namespace NerdStore.Core.Message
+namespace NerdStore.Core.Messages
 {
-    public abstract class Event : Message, INotification
+    public abstract class Event : Message, INotification//classe base
     { 
         public DateTime Timestamp { get; private set;}
 

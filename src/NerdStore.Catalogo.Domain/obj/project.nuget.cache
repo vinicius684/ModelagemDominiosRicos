@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bBBSmk7YLi9iEjI+A6PvEOr3z6m6w9qc8aUNGJcObh2nxK0ArrhkE1WKh6jd6J/kg6qF7nzi0SybgUs5bGPKFg==",
+  "dgSpecHash": "6ssTAaBX7xvfMiZyM9Tm+jiMDlvXE9A5HDnxM1f9ErAlk/WcDIU9YfexuEQHgWEPJkO6D6Q3qdra3JFLnNsY0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vpinh\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.3\\microsoft.entityframeworkcore.8.0.3.nupkg.sha512",

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NerdStore.Core.Message
+namespace NerdStore.Core.Messages
 {
-    public abstract class Message
+    public abstract class Message //classe base
     {
         public string MessageType { get; protected set;}//Tipo da Menssagem
 

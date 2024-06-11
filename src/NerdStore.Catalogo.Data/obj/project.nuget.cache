@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rdQ/VqxX8EGzkn9dJKYzMnwqOicPOY+SFRVj6czJwwofoIU+DmBNcljYEpG1S9ZFVHzzogZ3nMUdZe0gU3sicw==",
+  "dgSpecHash": "K9OeYOtPv1x1LIKCr+6xiO/+C49I1TcaqDnBGDCXVnbWwopBT/d7WJq95zGjlv9wc9v8I03NgOaOmToCUQ1ihg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vpinh\\Desktop\\Desenvolvedor.io\\_8ModelagemDeDominiosRicos\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vpinh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\vpinh\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\vpinh\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
