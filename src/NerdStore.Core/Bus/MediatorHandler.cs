@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using NerdStore.Core.Message;
+using NerdStore.Core.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +19,13 @@ namespace NerdStore.Core.Bus
 
         public async Task PublicarEvento<T>(T evento) where T : Event
         {
-            await _mediator.Publish(evento);
+            await _mediator.Publish(evento); //publish -> disparo, notificação
         }
+
+        public async Task<bool> EnviarComando<T>(T comando) where T : Command
+        {
+            return await _mediator.Send(comando); //send -> request, command
+        }
+
     }
 }

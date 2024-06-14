@@ -87,7 +87,7 @@ namespace NerdStore.Vendas.Domain
 
             item.AssociarPedido(Id);
 
-            if (PedidoItemExistente(item))
+            if (PedidoItemExistente(item))//se já existir soma qtdUnidades
             {
                 var itemExistente = _pedidoItems.FirstOrDefault(p => p.ProdutoId == item.ProdutoId);
                 itemExistente.AdicionarUnidades(item.Quantidade);
@@ -156,7 +156,7 @@ namespace NerdStore.Vendas.Domain
 
         public static class PedidoFactory //se tiver criando, exemplo, um pedido rascunho(o cliente começar a colocar os itens no carrinho e tal), não vou querer todos os dados do construtor, vou querer instanciar a Pedido de uma forma diferente.
         {
-            public static Pedido NovoPedidoRascunho(Guid clienteId) //Pedido.PedidoFactory.NovoPedidoRascunho(Guid clienteId) -> instancia sem utilizar o construtor
+            public static Pedido NovoPedidoRascunho(Guid clienteId) //Pedido.PedidoFactory.NovoPedidoRascunho(Guid clienteId) -> instancia sem utilizar o construtor. Ex: em PedidoCommandHandler método Handler
             {
                 var pedido = new Pedido //Estou dentro da propria classe, logo consigo instanciar dessa forma por conta do Construtor padrão, mesmo sendo protected
                 {

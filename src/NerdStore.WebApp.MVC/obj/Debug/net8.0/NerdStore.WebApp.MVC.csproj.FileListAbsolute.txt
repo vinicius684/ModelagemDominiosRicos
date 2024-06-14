@@ -316,3 +316,10 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\net8.0\NerdStor.0A9B5D05.Up2Date
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\net8.0\NerdStore.WebApp.MVC.genruntimeconfig.cache
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\net8.0\ref\NerdStore.WebApp.MVC.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Vendas.Application.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Vendas.Domain.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Vendas.Application.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Vendas.Domain.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Vendas.Data.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Vendas.Data.pdb

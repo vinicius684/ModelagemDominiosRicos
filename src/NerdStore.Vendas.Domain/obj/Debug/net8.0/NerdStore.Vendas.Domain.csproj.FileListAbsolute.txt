@@ -1,0 +1,16 @@
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\net8.0\NerdStore.Vendas.Domain.deps.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\net8.0\NerdStore.Vendas.Domain.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\net8.0\NerdStore.Vendas.Domain.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\net8.0\NerdStore.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\net8.0\NerdStore.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStore.Vendas.Domain.csproj.AssemblyReference.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStore.Vendas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStore.Vendas.Domain.AssemblyInfoInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStore.Vendas.Domain.AssemblyInfo.cs
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStore.Vendas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStore.Vendas.Domain.sourcelink.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStor.D79D0AA6.Up2Date
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStore.Vendas.Domain.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\refint\NerdStore.Vendas.Domain.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\NerdStore.Vendas.Domain.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\net8.0\ref\NerdStore.Vendas.Domain.dll
