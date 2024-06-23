@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using NerdStore.Core.Data;
 using NerdStore.Core.Messages;
 using NerdStore.Vendas.Domain;
-using NerdStore.Core.Bus;
+using NerdStore.Core.Communiation.Mediator;
 
 namespace NerdStore.Vendas.Data
 {

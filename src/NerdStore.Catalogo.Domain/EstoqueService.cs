@@ -1,5 +1,5 @@
 ﻿using NerdStore.Catalogo.Domain.Events;
-using NerdStore.Core.Bus;
+using NerdStore.Core.Communiation.Mediator;
 using System;
 using System.Collections.Generic;
 using System.Linq;

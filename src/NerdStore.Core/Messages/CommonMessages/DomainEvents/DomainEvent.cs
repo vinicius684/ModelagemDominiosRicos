@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NerdStore.Core.DomainObjects
+namespace NerdStore.Core.Messages.CommonMessages.DomainEvents
 {
     public class DomainEvent : Event
     {
-        public DomainEvent(Guid aggregateId) 
+        public DomainEvent(Guid aggregateId)
         {
             AggregateId = aggregateId;
         }

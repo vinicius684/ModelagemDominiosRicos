@@ -1,7 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using NerdStore.Catalogo.Application.Services;
-using NerdStore.Core.Bus;
+using NerdStore.Core.Communiation.Mediator;
+using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Vendas.Application.Commands;
 
 namespace NerdStore.WebApp.MVC.Controllers
@@ -9,12 +10,13 @@ namespace NerdStore.WebApp.MVC.Controllers
     public class CarrinhoController : ControllerBase
     {
         private readonly IProdutoAppService _produtoAppService;
-        private readonly IMediatrHandler _mediatorHandler;
+        private readonly IMediatrHandler _mediatrHandler;
 
-        public CarrinhoController(IProdutoAppService produtoAppService, IMediatrHandler mediatrHandler)
+
+        public CarrinhoController(INotificationHandler<DomainNotification> notifications, IProdutoAppService produtoAppService, IMediatrHandler mediatrHandler) : base(notifications, mediatrHandler)
         {
             _produtoAppService = produtoAppService;
-            _mediatorHandler = mediatrHandler;
+            _mediatrHandler = mediatrHandler;
         }
 
         public IActionResult Index()
@@ -36,15 +38,15 @@ namespace NerdStore.WebApp.MVC.Controllers
             }
 
             var command = new AdicionarItemPedidoCommand(ClienteId, produto.Id, produto.Nome, quantidade, produto.Valor);//ClienteId é o cliente logado, mas esse não é foco desse curso, portanto será criada uma classe para simular isso ControllerBase
-            await _mediatorHandler.EnviarComando(command);
+            await _mediatrHandler.EnviarComando(command);
 
             //se tudo deu certo
-            //if (OperacaoValida())
-            //{
-            //    return RedirectToAction("Index");
-            //}
+            if (OperacaoValida())
+            {
+                return RedirectToAction("Index");
+            }
 
-            TempData["Erros"] = "Pr oduto Indisponível";
+           TempData["Erros"] = ObterMensagensErro();//usando tempData pois estou retornando um Redirect, que perde o estado do request anterior;
             return RedirectToAction("ProdutoDetalhe", "Vitrine", new { id });
         }
     }

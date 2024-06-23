@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation.Results;
-using MediatR; //vai mediar a troca de menssagens através de encontrar o manipulador daquela mensagem através do recurso de injeção de dependência
+using MediatR;
+using NerdStore.Core.Messages.CommonMessages.Notifications; //vai mediar a troca de menssagens através de encontrar o manipulador daquela mensagem através do recurso de injeção de dependência
 
 namespace NerdStore.Core.Messages
 {
