@@ -38,8 +38,8 @@ namespace NerdStore.Vendas.Data
                 }
             }
 
-            //var sucesso = await base.SaveChangesAsync() > 0;
-            //if (sucesso) await _mediatorHandler.PublicarEvento(this);
+            var sucesso = await base.SaveChangesAsync() > 0;
+            if (sucesso) await _mediatorHandler.PublicarEventos(this);
 
             return await base.SaveChangesAsync() > 0;
         }
