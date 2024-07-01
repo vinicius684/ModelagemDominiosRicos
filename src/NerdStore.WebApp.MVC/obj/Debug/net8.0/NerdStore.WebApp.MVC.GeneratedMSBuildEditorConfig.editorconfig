@@ -38,12 +38,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9kdXRvc1xOb3ZvUHJvZHV0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/src/NerdStore.WebApp.MVC/Views/Carrinho/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/src/NerdStore.WebApp.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/src/NerdStore.WebApp.MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/src/NerdStore.WebApp.MVC/Views/Shared/Components/Cart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vpinh/Desktop/Desenvolvedor.io/_8ModelagemDeDominiosRicos/NerdStore/src/NerdStore.WebApp.MVC/Views/Shared/Components/Summary/Default.cshtml]

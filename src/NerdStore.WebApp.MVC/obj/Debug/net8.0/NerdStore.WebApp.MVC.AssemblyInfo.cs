@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NerdStore.WebApp.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae746e57756b86660e5c771f01105fcdbac583be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42d1992d235394b369a2821be1ba5e0cbbb55e2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NerdStore.WebApp.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NerdStore.WebApp.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
