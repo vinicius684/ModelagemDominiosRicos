@@ -1,5 +1,6 @@
-﻿using NerdStore.Core.DomainObjects;
-using System.ComponentModel.DataAnnotations;
+﻿using FluentValidation.Results;
+using NerdStore.Core.DomainObjects;
+
 
 
 namespace NerdStore.Vendas.Domain
@@ -35,11 +36,23 @@ namespace NerdStore.Vendas.Domain
             _pedidoItems = new List<PedidoItem>();
         }
 
-        public void AplicarVoucher(Voucher voucher)
-        { 
+        //public void AplicarVoucher(Voucher voucher) //Antigo
+        //{ 
+        //    Voucher = voucher;
+        //    VoucherUtilizado = true;
+        //    CalcularValorPedido();
+        //}
+
+        public ValidationResult AplicarVoucher(Voucher voucher) //Nesse Refatoração, estou ao mesmo tempo, Validando se o Voucher é válido, Retornando a validação pra poder propagar e Aplicando se válido 
+        {
+            var validationResult = voucher.ValidarSeAplicavel();
+            if (!validationResult.IsValid) return validationResult;
+
             Voucher = voucher;
             VoucherUtilizado = true;
             CalcularValorPedido();
+
+            return validationResult;
         }
 
         public void CalcularValorPedido()

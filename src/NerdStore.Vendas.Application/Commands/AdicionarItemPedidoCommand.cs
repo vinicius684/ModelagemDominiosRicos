@@ -11,6 +11,7 @@ namespace NerdStore.Vendas.Application.Commands
     public class AdicionarItemPedidoCommand : Command
     {
         //vou ter tudo que for necessário para adicionar um item de um pedido
+        //Nota: nesse caso não faz nenhum sentido pedir o PedidoId, porque se o pedido não existir no cliente, eu tenho que criar um pedido ainda
 
         public Guid ClienteId { get; private set; }
         public Guid ProdutoId { get; private set; }

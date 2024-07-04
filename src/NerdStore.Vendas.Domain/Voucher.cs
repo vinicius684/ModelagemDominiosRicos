@@ -1,4 +1,6 @@
-﻿using NerdStore.Core.DomainObjects;
+﻿using FluentValidation;
+using FluentValidation.Results;
+using NerdStore.Core.DomainObjects;
 
 
 namespace NerdStore.Vendas.Domain
@@ -18,5 +20,38 @@ namespace NerdStore.Vendas.Domain
 
         // EF Rel.
         public ICollection<Pedido> Pedidos { get; set; } //voucher pode ser utilizado em N pedidos
+
+        internal ValidationResult ValidarSeAplicavel()
+        {
+            return new VoucherAplicavelValidation().Validate(this);
+        }
+    }
+
+    public class VoucherAplicavelValidation : AbstractValidator<Voucher>
+    {
+
+        public VoucherAplicavelValidation()
+        {
+            RuleFor(c => c.DataValidade)
+                .Must(DataVencimentoSuperiorAtual)
+                .WithMessage("Este voucher está expirado.");
+
+            RuleFor(c => c.Ativo)//Só é válido se ativo for igual a true
+                .Equal(true)
+                .WithMessage("Este voucher não é mais válido.");
+
+            RuleFor(c => c.Utilizado)//Só é valido se Utilizado for igual a false
+                .Equal(false)
+                .WithMessage("Este voucher já foi utilizado.");
+
+            RuleFor(c => c.Quantidade)
+                .GreaterThan(0)
+                .WithMessage("Este voucher não está mais disponível");
+        }
+
+        protected static bool DataVencimentoSuperiorAtual(DateTime dataValidade)
+        {
+            return dataValidade >= DateTime.Now;
+        }
     }
 }
