@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using NerdStore.Core.Messages;
+using NerdStore.Core.Messages.CommonMessages.DomainEvents;
 using NerdStore.Core.Messages.CommonMessages.Notifications;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ namespace NerdStore.Core.Communiation.Mediator
         public async Task PublicarEvento<T>(T evento) where T : Event
         {
             await _mediator.Publish(evento); //publish -> disparo, notificação
+
         }
 
         public async Task<bool> EnviarComando<T>(T comando) where T : Command
@@ -29,6 +31,11 @@ namespace NerdStore.Core.Communiation.Mediator
         }
 
         public async Task PublicarNotificacao<T>(T notificacao) where T : DomainNotification
+        {
+            await _mediator.Publish(notificacao);
+        }
+
+        public async Task PublicarDomainEvent<T>(T notificacao) where T : DomainEvent
         {
             await _mediator.Publish(notificacao);
         }

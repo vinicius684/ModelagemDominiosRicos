@@ -50,7 +50,7 @@ namespace NerdStore.Vendas.Data
                 e => e.GetProperties().Where(p => p.ClrType == typeof(string))))
                 property.SetColumnType("varchar(100)");
 
-            modelBuilder.Ignore<Event>();
+            modelBuilder.Ignore<Event>();//não criar tabela para eventos
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(VendasContext).Assembly);
 

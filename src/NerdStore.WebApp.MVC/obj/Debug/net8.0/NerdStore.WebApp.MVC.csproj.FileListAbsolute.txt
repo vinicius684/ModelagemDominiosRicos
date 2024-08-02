@@ -324,3 +324,9 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Vendas.Data.dll
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Vendas.Data.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\libman.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.AntiCorruption.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.Business.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.Data.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.Data.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.AntiCorruption.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.Business.pdb
