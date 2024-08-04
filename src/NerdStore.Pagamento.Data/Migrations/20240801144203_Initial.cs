@@ -17,7 +17,7 @@ namespace NerdStore.Pagamentos.Data.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     PedidoId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Status = table.Column<string>(type: "varchar(100)", nullable: false),
+                    Status = table.Column<string>(type: "varchar(100)", nullable: true),
                     Valor = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     NomeCartao = table.Column<string>(type: "varchar(250)", nullable: false),
                     NumeroCartao = table.Column<string>(type: "varchar(16)", nullable: false),

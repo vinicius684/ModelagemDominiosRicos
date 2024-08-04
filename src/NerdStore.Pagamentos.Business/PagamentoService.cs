@@ -45,6 +45,7 @@ namespace NerdStore.Pagamentos.Business
 
             if (transacao.StatusTransacao == StatusTransacao.Pago)
             {
+                pagamento.AtualizarStatusPagamento(StatusTransacao.Pago.ToString());
                 pagamento.AdicionarEvento(new PedidoPagamentoRealizadoEvent(pedido.Id, pagamentoPedido.ClienteId, transacao.PagamentoId, transacao.Id, pedido.Valor)); //evento de inetegração - não utilizado até o momento
 
                 _pagamentoRepository.Adicionar(pagamento);

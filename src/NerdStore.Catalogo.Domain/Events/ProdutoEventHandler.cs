@@ -14,7 +14,9 @@ namespace NerdStore.Catalogo.Domain.Events
     // Classe de manipulação
     public class ProdutoEventHandler :
         INotificationHandler<ProdutoAbaixoEstoqueEvent>,
-        INotificationHandler<PedidoIniciadoEvent>
+        INotificationHandler<PedidoIniciadoEvent>,
+        INotificationHandler<PedidoProcessamentoCanceladoEvent>
+
     {
         private readonly IProdutoRepository _produtoRepository;
         private readonly IEstoqueService _estoqueService;
@@ -46,6 +48,11 @@ namespace NerdStore.Catalogo.Domain.Events
             {
                 await _mediatrHandler.PublicarEvento(new PedidoEstoqueRejeitadoEvent(message.PedidoId, message.ClienteId));//Cancelar o pedido ou retornar mensagem de erro que estoque nãot a mais disponível
             }
+        }
+
+        public async Task Handle(PedidoProcessamentoCanceladoEvent message, CancellationToken cancellationToken)
+        {
+            await _estoqueService.ReporListaProdutosPedido(message.ProdutosPedido);
         }
     }
 }

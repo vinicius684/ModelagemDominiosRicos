@@ -157,7 +157,7 @@ namespace NerdStore.Vendas.Domain
             PedidoStatus = PedidoStatus.Iniciado;
         }
 
-        public void FinalizarPedido()
+        public void FinalizarPedido() //seria interessante setar data de finalização tb se tivssse esse atributo
         {
             PedidoStatus = PedidoStatus.Pago;
         }
