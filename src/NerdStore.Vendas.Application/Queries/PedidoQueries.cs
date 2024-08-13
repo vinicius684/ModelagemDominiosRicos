@@ -12,7 +12,7 @@ namespace NerdStore.Vendas.Application.Queries
             _pedidoRepository = pedidoRepository;
         }
 
-        public async Task<CarrinhoViewModel> ObterCarrinhoCliente(Guid clienteId)
+        public async Task<CarrinhoViewModel> ObterCarrinhoCliente(Guid clienteId) //Os dados do pagamentos serão populados através do form que a Action IniciarPedido vai receber
         {
             var pedido = await _pedidoRepository.ObterPedidoRascunhoPorClienteId(clienteId);
             if (pedido == null) return null;
