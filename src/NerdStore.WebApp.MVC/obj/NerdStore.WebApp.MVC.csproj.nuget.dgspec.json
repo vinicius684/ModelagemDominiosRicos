@@ -56,10 +56,6 @@
               "target": "Package",
               "version": "[22.0.0, )"
             },
-            "EventStore.Client.Grpc.Streams": {
-              "target": "Package",
-              "version": "[23.3.3, )"
-            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"

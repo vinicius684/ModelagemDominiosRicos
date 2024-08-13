@@ -57,7 +57,7 @@ namespace NerdStore.Catalogo.Domain
             if (produto.QuantidadeEstoque < 10)
             {
                 // avisar, mandar email, abrir chamado, realizar nova compra. Coisas esssas que não devem ser feitas aqui, estaria corrompendo a responsabilidade do método. Aí que entra o handle desse evento de domínio
-                await _mediatrHandler.PublicarEvento(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
+                await _mediatrHandler.PublicarDomainEvent(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
             }
 
             _produtoRepository.Atualizar(produto);

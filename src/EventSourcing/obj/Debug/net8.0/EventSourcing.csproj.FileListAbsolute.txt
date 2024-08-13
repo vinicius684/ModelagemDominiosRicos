@@ -1,0 +1,16 @@
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\bin\Debug\net8.0\EventSourcing.deps.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\bin\Debug\net8.0\EventSourcing.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\bin\Debug\net8.0\EventSourcing.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\bin\Debug\net8.0\NerdStore.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\bin\Debug\net8.0\NerdStore.Core.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSourcing.csproj.AssemblyReference.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSourcing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSourcing.AssemblyInfoInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSourcing.AssemblyInfo.cs
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSourcing.csproj.CoreCompileInputs.cache
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSourcing.sourcelink.json
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSou.29C0C78E.Up2Date
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSourcing.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\refint\EventSourcing.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\EventSourcing.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\EventSourcing\obj\Debug\net8.0\ref\EventSourcing.dll

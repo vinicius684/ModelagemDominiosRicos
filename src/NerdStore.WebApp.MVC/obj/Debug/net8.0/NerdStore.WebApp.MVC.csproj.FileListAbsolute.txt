@@ -330,3 +330,9 @@ C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.Data.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.AntiCorruption.pdb
 C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\NerdStore.Pagamentos.Business.pdb
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\EventStore.ClientAPI.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\protobuf-net.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\protobuf-net.Core.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\EventSourcing.dll
+C:\Users\vpinh\Desktop\Desenvolvedor.io\_8ModelagemDeDominiosRicos\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\net8.0\EventSourcing.pdb
