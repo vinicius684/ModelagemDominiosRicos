@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
-using EventStore.ClientAPI;
+using EventStore.Client;
 using NerdStore.Core.Data.EventSourcing;
 using NerdStore.Core.Messages;
 using Newtonsoft.Json;
@@ -21,26 +22,39 @@ namespace EventSourcing
 
         public async Task SalvarEvento<TEvent>(TEvent evento) where TEvent : Event
         {
-            await _eventStoreService.GetConnection().AppendToStreamAsync(
-                evento.AggregateId.ToString(),
-                ExpectedVersion.Any, //não está trabalhando com versões
-                FormatarEvento(evento)); //Tranformando o Event para eventData, como esperado pelo AppendTOStreamAsync
+            // Cria a coleção de EventData
+            var eventData = FormatarEvento(evento);
+
+            // Append o evento ao stream
+            await _eventStoreService.GetClient().AppendToStreamAsync(
+                evento.AggregateId.ToString(), // Nome do stream
+                StreamState.Any, // Indica que qualquer versão do stream é aceitável
+                eventData, // Eventos a serem adicionados
+                cancellationToken: default); // Pode ser ajustado conforme necessário
         }
 
         public async Task<IEnumerable<StoredEvent>> ObterEventos(Guid aggregateId)
         {
-            var eventos = await _eventStoreService.GetConnection()
-                .ReadStreamEventsForwardAsync(aggregateId.ToString(), 0, 500, false);//Lendo Eventos do ultimo para o primeiro, dependendo posso paginar
+            // Lê eventos do stream
+            var result = _eventStoreService.GetClient().ReadStreamAsync(
+                Direction.Forwards,
+                aggregateId.ToString(), // Nome do stream
+                StreamPosition.Start, // Início do stream
+                cancellationToken: default); // Pode ser ajustado conforme necessário
 
             var listaEventos = new List<StoredEvent>();
 
-            foreach (var resolvedEvent in eventos.Events)
+            // Itera sobre os eventos lidos
+            await foreach (var resolvedEvent in result)
             {
-                var dataEncoded = Encoding.UTF8.GetString(resolvedEvent.Event.Data);
+                // Converte ReadOnlyMemory<byte> para string Json
+                var dataEncoded = Encoding.UTF8.GetString(resolvedEvent.Event.Data.Span);
+
+                // Desserializa o JSON
                 var jsonData = JsonConvert.DeserializeObject<BaseEvent>(dataEncoded);
 
                 var evento = new StoredEvent(
-                    resolvedEvent.Event.EventId,
+                    resolvedEvent.Event.EventId.ToGuid(), // Converte UUID para Guid
                     resolvedEvent.Event.EventType,
                     jsonData.Timestamp,
                     dataEncoded);
@@ -48,17 +62,21 @@ namespace EventSourcing
                 listaEventos.Add(evento);
             }
 
+            // Ordena e retorna os eventos
             return listaEventos.OrderBy(e => e.DataOcorrencia);
         }
 
-        private static IEnumerable<EventData> FormatarEvento<TEvent>(TEvent evento) where TEvent : Event //tranformar Event para EventData
+        private static IEnumerable<EventData> FormatarEvento<TEvent>(TEvent evento) where TEvent : Event
         {
+            var eventDataJson = JsonConvert.SerializeObject(evento);
+            var eventDataBytes = Encoding.UTF8.GetBytes(eventDataJson);
+            // Cria o EventData com o novo formato do pacote EventStore.Client.Grpc.Streams
             yield return new EventData(
-                Guid.NewGuid(),
-                evento.MessageType,
-                true, //se está no formato Json
-                Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(evento)),
-                null);
+                Uuid.NewUuid(), // Gera um novo UUID para o evento
+                evento.MessageType, // Tipo de evento (por exemplo, "OrderPlaced")
+
+                eventDataBytes // Serializa o evento para bytes UTF-8
+            );
         }
     }
 

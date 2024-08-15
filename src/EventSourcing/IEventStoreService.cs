@@ -1,9 +1,9 @@
-﻿using EventStore.ClientAPI;
+﻿using EventStore.Client;
 
 namespace EventSourcing
 {
-    public interface IEventStoreService //meio de comunicação com meu banco 
+    public interface IEventStoreService//meio de comunicação com meu banco
     {
-        IEventStoreConnection GetConnection();
+        EventStoreClient GetClient();
     }
 }

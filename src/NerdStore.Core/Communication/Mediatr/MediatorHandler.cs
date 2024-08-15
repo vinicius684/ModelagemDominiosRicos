@@ -27,7 +27,7 @@ namespace NerdStore.Core.Communiation.Mediator
             await _mediator.Publish(evento); //publish -> disparo, notificação
 
             //if (!evento.GetType().BaseType.Name.Equals("DomainEvent"))
-                await _eventSourcingRepository.SalvarEvento(evento);
+            await _eventSourcingRepository.SalvarEvento(evento);
 
         }
 

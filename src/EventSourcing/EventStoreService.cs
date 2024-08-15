@@ -1,23 +1,24 @@
-﻿ using EventStore.ClientAPI;
+﻿ using EventStore.Client;
 using Microsoft.Extensions.Configuration;
 
 namespace EventSourcing
 {
     public class EventStoreService : IEventStoreService
     {
-        private readonly IEventStoreConnection _connection;
+        private readonly EventStoreClient _client;
 
         public EventStoreService(IConfiguration configuration)
         {
-            _connection = EventStoreConnection.Create(
-                configuration.GetConnectionString("EventStoreConnection"));
+            var connectionString = configuration.GetConnectionString("EventStoreConnection");
 
-            _connection.ConnectAsync();
+            var settings = EventStoreClientSettings.Create(connectionString);
+
+            _client = new EventStoreClient(settings);
         }
 
-        public IEventStoreConnection GetConnection()
+        public EventStoreClient GetClient()
         {
-            return _connection;
+            return _client;
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace NerdStore.Core.Data.EventSourcing
 {
-    public class StoredEvent //Formato do meu evento que vai ser guardado em formato de evento passado
+    public class StoredEvent //Representação do evento recuperado do EventStoreDb na minha app
     {
         public StoredEvent(Guid id, string tipo, DateTime dataOcorrencia, string dados)
         {
@@ -18,6 +18,6 @@ namespace NerdStore.Core.Data.EventSourcing
 
         public DateTime DataOcorrencia { get; set; }
 
-        public string Dados { get; private set; } //serealização em json do evento inteiro. Pra quando eu recuperar deserealizar e conseguir tranformar na minha classe de evento do TIpo
+        public string Dados { get; private set; } //serealização em json do evento inteiro. Pra quando eu recuperar deserealizar e conseguir tranformar na minha classe de evento do "Atributo TIpo"
     }
 }

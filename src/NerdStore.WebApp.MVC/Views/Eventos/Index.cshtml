@@ -1,0 +1,33 @@
+﻿@model IEnumerable<NerdStore.Core.Data.EventSourcing.StoredEvent>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @{
+        <table class="table table-sm table-bordered table-hover col-md-12">
+            <thead class="table-dark">
+            <tr>
+                <td>Id</td>
+                <td>Nome</td>
+                <td>Data</td>
+                <td>JSON</td>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var evento in Model)
+            {
+                <tr>
+                    <td>@evento.Id</td>
+                    <td>@evento.Tipo</td>
+                    <td>@evento.DataOcorrencia</td>
+                    <td><code>@evento.Dados</code></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+
+
+    }
+</div>

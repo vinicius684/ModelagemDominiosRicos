@@ -162,7 +162,7 @@ namespace NerdStore.Vendas.Application.Commands
             }
 
             pedido.AdicionarEvento(new VoucherAplicadoPedidoEvent(message.ClienteId, pedido.Id, voucher.Id));
-            pedido.AdicionarEvento(new PedidoAtualizadoEvent(message.ClienteId, pedido.Id, pedido.ValorTotal));
+       
 
             _pedidoRepository.Atualizar(pedido);
 
